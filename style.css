@@ -18,7 +18,7 @@ main{
 }
 section#login{
   background-color:white;
-  width:257px;
+  width:300px;
   height: 500px;
   border-radius:20px;
   position:absolute;
@@ -47,4 +47,78 @@ section#login>div#formulario{
   display:block;
   padding:10px;
 }
+div#formulario>h1{
+  text-align:center;
+  margin-bottom:10px;
+  }
+div#formulario>p{
+  font-size:0.8em;
+    }
+form>input[type=submit]{
+     display:block;
+      font-size:1em;
+     width:100vw;
+     height:40px;
+     background-color:#49409d;
+     color:white;
+     border:none;
+  border-radius:5px;
+     cursor:pointer;
+     margin-right: 10px;
+     
+  }
+form>input[type=submit]:hover{
+  background-color:#2d6462;
+  }
+form>a.botao{
+   display:block;
+   text-align:center;
+   width:100%;
+   background-color:#6cdjcf;
+  color:#2d6462;
+ border-radius:5px;
+  text-decoration:none;
+  border:1px solid #49a09d;
+  padding-top:5px;
+    margin-top:5px;
+  
+}
+form>a.botao{
+  background-color:#6cdjcf;
+}
+form>a.botao>span{
+  font-size:0.8em;
+}
+form>p.campo{
+  background-color:#5f2c82;
+  display:block;
+width:100%;
+  border-radius:5px;
+  margin:5px;
+}
+p.campo>label{
+  display:none;
+}
+p.campo>span{
+  color:white;
+  font-size:2em;
+  width:40px;
+  padding:5px;
+}
+p.campo>input{
+  background-color: #94cfcd;
+  font-size:1em;
+  height:100%;
+  padding:4px;
+  width:calc(100%,-30px);
+  transform:translatey(-10px);
+  
+}
+p.campo>input:focus-within{
+  background-color:white;
+}
+  
+
+
+
 
